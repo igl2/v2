@@ -38,9 +38,8 @@ hr {
 }
 
 a {
-    color:#EEEEEE;
+    color:#124059;
     font-family: 'Mandali', sans-serif;
-    margin: 10px 20px;
     text-decoration: none;
 }
 
@@ -67,7 +66,7 @@ a:hover {
 
 .intro {
     width: 30%;
-    margin: auto;
+    margin: auto auto 60px;
 }
 
 .top-cloud {
@@ -87,7 +86,7 @@ a:hover {
     border-radius: 50%;
 }
 
-.skill-row, .projects-row {
+.skill-row, .projects-row, .hobbies-row {
     width: 50%;
     margin: 100px auto;
     text-align: left;
@@ -113,10 +112,10 @@ a:hover {
     margin-left: 30px;
 }
 
-/* .basketball-img {
+.basketball-img {
     float: left;
     margin-right: 30px;
-} */
+}
 
 .contact-message {
     width: 50%;
@@ -147,6 +146,13 @@ a:hover {
     background-image: -ms-linear-gradient(top, #439dd1, #449fd4);
     background-image: -o-linear-gradient(top, #439dd1, #449fd4);
     background-image: linear-gradient(to bottom, #439dd1, #449fd4);
+    text-decoration: none;
+}
+
+.footer-link {
+    color:#EEEEEE;
+    font-family: 'Mandali', sans-serif;
+    margin: 10px 20px;
     text-decoration: none;
 }
 
