@@ -8,7 +8,7 @@ This is the second version of my personal website that describes some things abo
 A visually appealing personal website using good HTML and CSS practices.
 
 ## How to use
-Clone the repo and open 'index.html'
+Click on the link in the about section ---->
 
 ## Technologies
 - HTML5
