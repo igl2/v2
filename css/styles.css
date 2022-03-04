@@ -37,17 +37,33 @@ hr {
     margin: 100px auto;
 }
 
-a {
-    color:#124059;
-    font-family: 'Mandali', sans-serif;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 /** CLASS SELECTORS **/
+.navbar {
+    background-color: #D8D2CB;
+}
+
+.nav-logo {
+    width: 1.5rem;
+}
+
+.navbar li a {
+    color: #000;
+    font-size: 1.2rem;
+    margin: auto 0.5rem;
+}
+
+.navbar li a:hover {
+    color: #012B6A;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #000;
+} 
+
 .top-container {
     background-color: #1C658C;
     position: relative;
@@ -92,29 +108,19 @@ a:hover {
     text-align: left;
 }
 
-.computer-img {
+.project-link {
+    color: #012B6A;
+    text-decoration: none;
+}
+
+.computer-img, .running-img, .basketball-img {
     float: left;
     margin-right: 30px;
 }
 
-.school-img {
+.school-img, .music-notes-img {
     float: right;
     margin-left: 30px;
-}
-
-.running-img {
-    float: left;
-    margin-right: 30px;
-}
-
-.music-notes-img {
-    float: right;
-    margin-left: 30px;
-}
-
-.basketball-img {
-    float: left;
-    margin-right: 30px;
 }
 
 .contact-message {
@@ -156,8 +162,44 @@ a:hover {
     text-decoration: none;
 }
 
+.social-icon {
+    color:#fff;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
 .copyright {
     color: #EEEEEE;
     font-size: 0.75rem;
     padding: 20px 0;
+}
+
+/* Media */
+@media (max-width: 1200px) {
+    .intro, .contact-message {
+        width: 95%;
+        margin: 40px auto 60px;
+    }
+
+    .bottom-cloud {
+        display: none;
+    }
+
+    .mountain-img {
+        width: 60%;
+    }
+
+    .skill-row, .projects-row, .hobbies-row {
+        width: 95%;
+        margin: 100px auto;
+    }
+    
+    .computer-img, .running-img, .basketball-img {
+        margin-right: 30px;
+    }
+    
+    .school-img, .music-notes-img {
+        margin-left: 30px;
+    }
 }
