@@ -49,6 +49,8 @@ hr {
 
 .navbar.scrolled {
     background-color: #1C658C;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar.scrolled li a {
