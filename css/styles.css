@@ -1,4 +1,8 @@
 /** TAG SELECTORS **/
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: #40514e;
     margin: 0;
@@ -40,6 +44,17 @@ hr {
 /** CLASS SELECTORS **/
 .navbar {
     background-color: #D8D2CB;
+    transition: 0.75s ease;
+}
+
+.navbar.scrolled {
+    background-color: #1C658C;
+}
+
+.navbar.scrolled li a {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: auto 0.5rem;
 }
 
 .nav-logo {
@@ -81,14 +96,14 @@ hr {
 }
 
 .intro {
-    width: 30%;
+    width: 40%;
     margin: 40px auto 60px;
 }
 
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 40px;
+    top: 5rem;
 }
 
 .bottom-cloud {
@@ -103,7 +118,7 @@ hr {
 }
 
 .skill-row, .projects-row, .hobbies-row {
-    width: 50%;
+    width: 40%;
     margin: 100px auto;
     text-align: left;
 }
@@ -113,7 +128,7 @@ hr {
     text-decoration: none;
 }
 
-.computer-img, .running-img, .basketball-img {
+.computer-img, .running-img, .sports-img, .man-img {
     float: left;
     margin-right: 30px;
 }
@@ -124,7 +139,7 @@ hr {
 }
 
 .contact-message {
-    width: 50%;
+    width: 40%;
     margin: 40px auto 60px;
 }
 
@@ -169,6 +184,10 @@ hr {
     font-size: 1.5rem;
 }
 
+.social-icon:hover {
+    color: #000;
+}
+
 .copyright {
     color: #EEEEEE;
     font-size: 0.75rem;
@@ -177,18 +196,24 @@ hr {
 
 /* Media */
 @media (max-width: 280px) {
-    .school-img, .music-notes-img, .computer-img, .running-img, .basketball-img {
+    .school-img, .music-notes-img, .computer-img, .running-img, .sports-img, .man-img {
        width: 6rem;
     }
 }
 
 @media (max-width: 1200px) {
     .title-heading {
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .profile-img {
+        border: solid black;
+        border-radius: 50%;
+        width: 8rem;
     }
 
     .intro, .contact-message {
-        width: 95%;
+        width: 90%;
         margin: 40px auto 60px;
     }
 
@@ -201,11 +226,11 @@ hr {
     }
 
     .skill-row, .projects-row, .hobbies-row {
-        width: 95%;
+        width: 90%;
         margin: 100px auto;
     }
     
-    .computer-img, .running-img, .basketball-img {
+    .computer-img, .running-img, .sports-img, .man-img {
         margin-right: 30px;
     }
     

@@ -15,6 +15,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- Favicon -->
     <link rel="icon" href="favicon.ico?v=2" />
@@ -26,11 +27,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar fixed-top navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img class="nav-logo" src="favicon.ico" alt="logo"></a>
                 <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -61,8 +65,8 @@
         </nav>
         <div class="top-container">
             <img class="top-cloud" src="images/cloud.png" alt="cloud-img" />
-            <h1 class="title-heading">Hi, I'm Isaiah!</h1>
-            <h2 class="title-heading">a web developer</h2>
+            <h1 class="title-heading animate__animated animate__flipInX">Hi, I'm Isaiah!</h1>
+            <h2 class="title-heading animate__animated animate__flipInX">Aspiring Web Developer &amp; Designer</h2>
             <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img" />
             <img class="mountain-img" src="images/mountain.png" alt="mountain-img" />
         </div>
@@ -111,7 +115,8 @@
                     <img class="running-img" src="images/running.png" alt="running-img">
                     <h3>Online Fit Expert</h3>
                     <p>This web application allows users to search for shoes and view/track
-                        their workouts. Check out <a class="project-link" href="https://online-fit-expert.web.app/" target="_blank">Online
+                        their workouts. Check out <a class="project-link" href="https://online-fit-expert.web.app/"
+                            target="_blank">Online
                             Fit
                             Expert</a>!
                     </p>
@@ -120,8 +125,17 @@
                     <img class="music-notes-img" src="images/music-notes.png" alt="music-notes-img">
                     <h3>Save My Jam</h3>
                     <p>This web application allows users to search the Spotify library,
-                        create a playlist, and save it to their personal Spotify account. Check out <a class="project-link"
-                            href="https://savemyjam.surge.sh" target="_blank">Save My Jam</a>!
+                        create a playlist, and save it to their personal Spotify account. Check out <a
+                            class="project-link" href="https://savemyjam.surge.sh" target="_blank">Save My Jam</a>!
+                    </p>
+                    </p>
+                </div>
+                <div class="projects-row">
+                    <img class="man-img" src="images/man.png" alt="man-img">
+                    <h3>Personal Website v1</h3>
+                    <p class="project-description">This is the first iteration of my personal website. Check out <a
+                            class="project-link" href="https://igl2.github.io" target="_blank">my first personal
+                            website</a>!</p>
                     </p>
                     </p>
                 </div>
@@ -130,7 +144,7 @@
             <div class="hobbies" id="hobbies">
                 <h2>Hobbies</h2>
                 <div class="hobbies-row">
-                    <img class="basketball-img" src="images/basketball-ball.png" alt="basketball-img">
+                    <img class="sports-img" src="images/sports.png" alt="sports-img">
                     <h3>Sports and Exercise</h3>
                     <p>When I'm not programming, I sure like to get out of my chair and stay
                         active. Whether it's
@@ -163,6 +177,8 @@
             <p class="copyright">© 2022 Isaiah Lleva</p>
         </div>
     </footer>
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 
 </html>
