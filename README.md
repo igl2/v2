@@ -13,6 +13,9 @@ Click on the link in the about section ---->
 ## Technologies
 - HTML5
 - CSS3
+- JavaScript
+- Bootstrap
+- JQuery
 
 ## Collaborators
 Just Me!
